@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35CCBFAE4C872C127F641C41 /* Pods_LastMileApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403712125CEBF6CB476328C7 /* Pods_LastMileApp.framework */; };
+		AE1C6B3E298CE857003A9C0A /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1C6B3D298CE857003A9C0A /* PlaceViewController.swift */; };
+		AE319848298CD23B002ECB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE319847298CD23B002ECB55 /* AppDelegate.swift */; };
+		AE31984A298CD23B002ECB55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE319849298CD23B002ECB55 /* SceneDelegate.swift */; };
+		AE31984C298CD23B002ECB55 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE31984B298CD23B002ECB55 /* MainViewController.swift */; };
+		AE31984F298CD23B002ECB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE31984D298CD23B002ECB55 /* Main.storyboard */; };
+		AE319852298CD23B002ECB55 /* LastMileApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE319850298CD23B002ECB55 /* LastMileApp.xcdatamodeld */; };
+		AE319854298CD23C002ECB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE319853298CD23C002ECB55 /* Assets.xcassets */; };
+		AE319857298CD23C002ECB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE319855298CD23C002ECB55 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D91821C5EC6168C359B7F09 /* Pods-LastMileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastMileApp.debug.xcconfig"; path = "Target Support Files/Pods-LastMileApp/Pods-LastMileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		403712125CEBF6CB476328C7 /* Pods_LastMileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LastMileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F481C0D5A67323E157A7E0 /* Pods-LastMileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastMileApp.release.xcconfig"; path = "Target Support Files/Pods-LastMileApp/Pods-LastMileApp.release.xcconfig"; sourceTree = "<group>"; };
+		AE1C6B3D298CE857003A9C0A /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		AE319844298CD23B002ECB55 /* LastMileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastMileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE319847298CD23B002ECB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE319849298CD23B002ECB55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE31984B298CD23B002ECB55 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AE31984E298CD23B002ECB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE319851298CD23B002ECB55 /* LastMileApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LastMileApp.xcdatamodel; sourceTree = "<group>"; };
+		AE319853298CD23C002ECB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE319856298CD23C002ECB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE319858298CD23C002ECB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE319841298CD23B002ECB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CCBFAE4C872C127F641C41 /* Pods_LastMileApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3779AA64EB669D14C526A49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				403712125CEBF6CB476328C7 /* Pods_LastMileApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE1C6B3C298CE81F003A9C0A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				AE31984B298CD23B002ECB55 /* MainViewController.swift */,
+				AE1C6B3D298CE857003A9C0A /* PlaceViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		AE31983B298CD23B002ECB55 = {
+			isa = PBXGroup;
+			children = (
+				AE319846298CD23B002ECB55 /* LastMileApp */,
+				AE319845298CD23B002ECB55 /* Products */,
+				DD69E7FCD92C39EBAC5A126E /* Pods */,
+				3779AA64EB669D14C526A49D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE319845298CD23B002ECB55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE319844298CD23B002ECB55 /* LastMileApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE319846298CD23B002ECB55 /* LastMileApp */ = {
+			isa = PBXGroup;
+			children = (
+				AE1C6B3C298CE81F003A9C0A /* VC */,
+				AE319847298CD23B002ECB55 /* AppDelegate.swift */,
+				AE319849298CD23B002ECB55 /* SceneDelegate.swift */,
+				AE31984D298CD23B002ECB55 /* Main.storyboard */,
+				AE319853298CD23C002ECB55 /* Assets.xcassets */,
+				AE319855298CD23C002ECB55 /* LaunchScreen.storyboard */,
+				AE319858298CD23C002ECB55 /* Info.plist */,
+				AE319850298CD23B002ECB55 /* LastMileApp.xcdatamodeld */,
+			);
+			path = LastMileApp;
+			sourceTree = "<group>";
+		};
+		DD69E7FCD92C39EBAC5A126E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D91821C5EC6168C359B7F09 /* Pods-LastMileApp.debug.xcconfig */,
+				97F481C0D5A67323E157A7E0 /* Pods-LastMileApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE319843298CD23B002ECB55 /* LastMileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE31985B298CD23C002ECB55 /* Build configuration list for PBXNativeTarget "LastMileApp" */;
+			buildPhases = (
+				941990C13F628C2F3DC2F3E4 /* [CP] Check Pods Manifest.lock */,
+				AE319840298CD23B002ECB55 /* Sources */,
+				AE319841298CD23B002ECB55 /* Frameworks */,
+				AE319842298CD23B002ECB55 /* Resources */,
+				FAA319F2500ECC8B5A7D443A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LastMileApp;
+			productName = LastMileApp;
+			productReference = AE319844298CD23B002ECB55 /* LastMileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE31983C298CD23B002ECB55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					AE319843298CD23B002ECB55 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = AE31983F298CD23B002ECB55 /* Build configuration list for PBXProject "LastMileApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE31983B298CD23B002ECB55;
+			productRefGroup = AE319845298CD23B002ECB55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE319843298CD23B002ECB55 /* LastMileApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE319842298CD23B002ECB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE319857298CD23C002ECB55 /* LaunchScreen.storyboard in Resources */,
+				AE319854298CD23C002ECB55 /* Assets.xcassets in Resources */,
+				AE31984F298CD23B002ECB55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		941990C13F628C2F3DC2F3E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LastMileApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA319F2500ECC8B5A7D443A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LastMileApp/Pods-LastMileApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LastMileApp/Pods-LastMileApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LastMileApp/Pods-LastMileApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE319840298CD23B002ECB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE319852298CD23B002ECB55 /* LastMileApp.xcdatamodeld in Sources */,
+				AE31984C298CD23B002ECB55 /* MainViewController.swift in Sources */,
+				AE319848298CD23B002ECB55 /* AppDelegate.swift in Sources */,
+				AE1C6B3E298CE857003A9C0A /* PlaceViewController.swift in Sources */,
+				AE31984A298CD23B002ECB55 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE31984D298CD23B002ECB55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE31984E298CD23B002ECB55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE319855298CD23C002ECB55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE319856298CD23C002ECB55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE319859298CD23C002ECB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE31985A298CD23C002ECB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE31985C298CD23C002ECB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D91821C5EC6168C359B7F09 /* Pods-LastMileApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZAL935K4Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LastMileApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.Yun.LastMileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE31985D298CD23C002ECB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F481C0D5A67323E157A7E0 /* Pods-LastMileApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZAL935K4Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LastMileApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.Yun.LastMileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE31983F298CD23B002ECB55 /* Build configuration list for PBXProject "LastMileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE319859298CD23C002ECB55 /* Debug */,
+				AE31985A298CD23C002ECB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE31985B298CD23C002ECB55 /* Build configuration list for PBXNativeTarget "LastMileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE31985C298CD23C002ECB55 /* Debug */,
+				AE31985D298CD23C002ECB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE319850298CD23B002ECB55 /* LastMileApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE319851298CD23B002ECB55 /* LastMileApp.xcdatamodel */,
+			);
+			currentVersion = AE319851298CD23B002ECB55 /* LastMileApp.xcdatamodel */;
+			path = LastMileApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE31983C298CD23B002ECB55 /* Project object */;
+}
